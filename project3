@@ -1,0 +1,82 @@
+## Project Structure
+tacgrid-ai-energy-optimizer
+│
+├── README.md
+├── requirements.txt
+├── simulation
+│   └── energy_simulator.py
+│
+├── ai_model
+│   └── energy_optimizer.py
+│
+├── dashboard
+│   └── app.py
+│
+├── docs
+│   └── research-paper.md
+│
+└── images
+# TacGrid AI Energy Optimizer
+
+AI-powered tactical microgrid simulation system designed to optimize energy usage in mission environments by intelligently managing generators, batteries, and device power distribution.
+
+Developed as a research and prototype project under **TacGrid Labs – Student Energy Innovation Initiative**.
+
+---
+
+## Overview
+
+Modern battlefield operations depend heavily on electronic systems such as:
+
+- radar systems
+- communication radios
+- drones
+- computing devices
+
+These systems require reliable power. Currently, military units rely mostly on generators, which creates several problems:
+
+- excessive fuel consumption
+- high acoustic and thermal signatures
+- logistical challenges in contested environments
+
+This project proposes a **smart tactical energy management system** that integrates generators, batteries, and renewable sources into a dynamic microgrid.
+
+The system simulates energy demand and intelligently determines the most efficient energy distribution strategy.
+
+---
+
+## Problem Statement
+
+Current battlefield power systems are inefficient because generators often run continuously regardless of actual energy demand.
+
+This leads to:
+
+- fuel wastage
+- increased noise and heat signatures
+- higher detection risk
+- inefficient power distribution
+
+Additionally, there is a lack of flexible **medium-scale portable energy storage systems** capable of supporting mission operations efficiently.
+
+---
+
+## Proposed Solution
+
+TacGrid introduces an **AI-driven tactical energy optimization system**.
+
+The system:
+
+- simulates energy demand from battlefield devices
+- monitors battery storage levels
+- determines when generators should operate
+- prioritizes power allocation to critical devices
+
+Key capabilities:
+
+- intelligent generator scheduling
+- battery energy optimization
+- mission-aware power distribution
+- tactical microgrid simulation
+
+This enables **fuel-efficient, stealth-compatible energy management**.
+
